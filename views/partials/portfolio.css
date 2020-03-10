@@ -1,0 +1,475 @@
+*,
+*::before,
+*::after
+*{
+   
+    box-sizing: border-box;
+
+}
+
+*:focus {
+   
+    outline: none;
+
+}
+
+body {
+   
+    padding: 0;
+    margin: 0;
+    margin-left: 155px;
+    margin-right: 45px;
+    background: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+
+    justify-content: center;
+  
+
+}
+
+a {
+    
+    text-decoration: none;
+
+}
+.source {
+    text-decoration: none;
+    color:  #009688;
+}
+img {
+    width: 100%;   
+}
+figure{
+    margin-top: 150px;
+    padding: 30px;
+    display: inline-block;
+  }
+  figcaption{
+    text-align: center;
+    color: #b2b2b2;
+  }
+.title-image {
+    width: 200px;
+    height: 200px;
+    margin:auto auto auto auto;
+    margin-bottom: 20px;
+}
+
+aside {
+
+    position: fixed;
+    background: #222;
+    top: 0px;
+    left: 0px;
+    width: 120px;
+    height: 100%;
+    overflow: none;
+    z-index: 1;
+    text-align: center;
+    padding: 0;
+
+}
+
+aside img {
+
+    filter: grayscale(85%) contrast(100%)
+    brightness(100%);
+    margin-bottom: -3px;
+
+}
+
+.material-icons.md-36 {
+
+    font-size: 36px;
+
+}
+
+aside a {
+
+    display: block;
+    padding: 15px 0;
+    color: white;
+    transform: all 0,35s;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+
+}
+
+aside p {
+
+margin: 0;
+padding: 0;
+
+}
+.highlight{
+    background: black;
+}
+aside a:hover {
+    
+    background-color: #000;
+
+}
+main {
+
+    max-width: 980px; 
+    background: #000;
+    margin-left: 20%;
+    padding: 12px 50px 12px 50px;
+}
+
+header {
+
+    margin-top:50px;
+    margin-bottom: 230px;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+header h1 {
+    
+    font-weight: bold;
+    font-size: 4em;
+    letter-spacing: 4px;
+    color: #b2b2b2;
+
+}
+
+header h5 {
+
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 4px;
+    color: #b2b2b2;
+
+}
+
+.about,
+.folio,
+.contact{
+    
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.folio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:90vw;
+}
+
+
+.about h2,
+.folio h2,
+.contact h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 50px;
+    margin: 10px 0 0 0;
+    letter-spacing: 4px;
+    color: #b2b2b2;
+    font-size:3rem;
+}
+.about p {
+
+    color: #b2b2b2;
+
+}
+
+#img-about {
+    height: 100px;
+    width: 100px;
+    border-radius: 15%;
+
+}
+
+.about span {
+
+    font-weight: 600;
+    color: white;
+
+}
+
+.card-wrapper {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    /* position: relative; */
+    margin-top: 20px;
+
+}
+
+.card1, .card2, .card3 {
+   
+    width: fit-content;
+	height: 360px;
+	border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 20px;
+	background: #2e2e2e;
+	align-items: flex-end;
+	transition: 0.4s ease-out;
+    box-shadow: 0px 7px 10px rgba(rgb(252, 252, 252),2);
+    justify-content: center;
+
+} 
+.maincontent{
+    margin-left: 120px;
+}
+
+.cardpic {
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+
+.container {
+
+    width: 100%;
+    background-color: #b2b2b2;
+
+}
+
+
+.folio h3 {
+
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+ 
+
+}
+
+
+.row-halves {
+    
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin:0;
+    flex-wrap: wrap;
+
+}
+
+label {
+   
+    color: #b2b2b2;
+
+}
+
+form input[type="text"],
+select,
+textarea {
+    
+    width: 100%;
+    padding: 12px;
+    border:  none;
+    border: 1px solid #222;
+    background: transparent;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #b2b2b2;
+
+}
+
+form input[type="text"]:focus,
+textarea:focus {
+    
+    outline: none;
+    border: 1px solid #009688;
+
+}
+
+input[type="submit"] {
+    
+    background-color: transparent;
+    color: #b2b2b2;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border: 1px solid #222;
+    cursor: pointer;
+    transition: all 0.35s;
+
+}
+
+input[type="submit"] {
+    
+    background-color: transparent;
+    color: #b2b2b2;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border: 1px solid #222;
+    cursor: pointer;
+    transform: all 0.35s;
+
+}
+input[type="submit"]:hover {
+    
+    background-color: #b2b2b2;
+    color: #222;
+
+}
+
+.contact {
+
+
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 170px;
+    letter-spacing: 4px;
+    color: #b2b2b2;
+
+}
+
+.contact .container {
+    
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background: transparent;
+    padding: 20px 0;
+
+}
+
+footer {
+    
+    color: azure;
+    border-top: 1px solid #222;
+
+
+}
+
+.top-bar {
+   
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.top-bar a {
+    
+    color: #818181;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.top-bar a:hover{
+    
+    transform: scale(1.1);
+    color: #009688;
+
+}
+
+.fa {
+    
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.fa:hover {
+    
+    opacity: 0.7;
+
+}
+
+
+.bottom-bar{
+    
+    background: #000;
+    font-size: 0.75em;
+    text-align: center;
+
+}
+
+/* @media (max-width: 768px) {
+    
+    .row-halves{
+        display: block;
+    }
+    .row-halves .col{
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+} */
+
+@media (orientation:portrait) {
+    
+    aside{
+        
+        width:70px;
+    
+    }
+ 
+   
+    main{
+        
+        width: 100%;
+        margin: 0 auto;
+        padding: 12px 25px;
+    
+    }
+
+    header h1 {
+        
+        font-size: 3em;
+        line-height: 1.4em;
+    
+    }
+    
+    header h5{
+        
+        font-size: 1em;
+        letter-spacing: 2px;
+    
+    }
+    .row-halves{
+        justify-content: flex-start;
+    }
+    .mobile-nav {
+        
+        position: fixed;
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 1;
+    
+    } 
+
+    .mobile-nav a{
+       
+        width: 100%;
+        color: #b2b2b2;
+        text-transform: uppercase;
+        font-size: 0.875em;
+        letter-spacing: 2px;
+        text-align: center;
+        padding: 10px 10px;
+        transition: all 0.35s;
+    
+    }
+
+    .mobile-nav a:hover {
+        
+        background: #b2b2b2;
+        color: #222;
+    
+    }
+
+}
+

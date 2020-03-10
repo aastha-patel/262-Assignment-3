@@ -1,0 +1,6 @@
+<%- include('partials/header') %>
+    <figure>
+    <img src= "/images/lrg/<%= gallery.fileName %>" alt ="<% gallery.title %>" ></a>
+    <figcaption><%= gallery.title %> <a class="source" href=" <%= gallery.attribution.url %>"> <%= gallery.attribution.credit %></a> <%= gallery.attribution.source %></figcaption>
+  </figure>
+<%- include('partials/footer') %>
